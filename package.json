@@ -8,10 +8,15 @@
     "node": ">=6.13.0"
   },
   "scripts": {
+    "start": "nodemon server/server.js"
   },
   "dependencies": {
+    "express": "^4.16.3",
+    "morgan": "^1.9.1",
+    "nodemon": "^1.18.4"
   },
   "devDependencies": {
-    "eslint-config-hackreactor": "git://github.com/reactorcore/eslint-config-hackreactor"
+    "eslint-config-hackreactor": "git://github.com/reactorcore/eslint-config-hackreactor",
+    "http-proxy-middleware": "^0.19.0"
   }
 }
